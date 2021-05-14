@@ -10,10 +10,13 @@ Following the 2011 fires, Santa Fe implemented a 19-year adaptive watershed mana
 
 This repository contains a script that uses the Las Conchas fire as a case study to identify: 
  
-..-Which watersheds are affected by a particular fire; 
-..-Which counties intersect with those watersheds; 
-..-What fires have occurred within those units; 
-..-The demographic information of the people in those counties. 
+-Which watersheds are affected by a particular fire;
+ 
+-Which counties intersect with those watersheds; 
+
+-What fires have occurred within those units; 
+
+-The demographic information of the people in those counties. 
 
 The goal of this script is to be translatable to fires in any state in the U.S. with access to comparative data for managers who would like to target adaptive management techniques to certain geographic units that are greatest risk. 
 
@@ -22,9 +25,12 @@ The goal of this script is to be translatable to fires in any state in the U.S. 
 One script (fire_county_watershed.py), three shapefiles, and two csv as follows:
 
 1. Census TIGER/Line County Shapefiles
-    ..Follow the Web Interface Link at the [Census site](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html),
-    ..Select the Year 2010 and the Counties (and equivalent) layer type,
-    ..After hitting submit, select New Mexico in the 2010 dropdown menu and download the file.
+    
+    Follow the Web Interface Link at the [Census site](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html),
+    
+    Select the Year 2010 and the Counties (and equivalent) layer type,
+    
+    After hitting submit, select New Mexico in the 2010 dropdown menu and download the file.
     
 The remaining files are available from the [NM RGIS Database](https://rgis.unm.edu/rgis6/)    
 
@@ -43,7 +49,8 @@ The remaining files are available from the [NM RGIS Database](https://rgis.unm.e
 
 1. Download the input data as detailed above.
 
-2. Run the script..
+2. Run the script.
+
     i. The script will load the zip files, limit the data to relevant geographic units, and use spatial joins to determine which counties are most relevant to the analysis. 
     
     ii. It will then write each layer to geopackage files to be loaded into QGIS. 
