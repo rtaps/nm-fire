@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May  3 23:15:58 2021
-
-@author: Rebecca
-"""
-
 # Using New Mexico Wildfire, Watershed, and Demographic Data to Inform Adaptive Management 
 
 ## Summary
